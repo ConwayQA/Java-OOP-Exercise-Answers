@@ -13,7 +13,8 @@ public class Runner {
 		//question3();
 		//question4();
 		//question4ApendixA();
-		question5();
+		//question5();
+		question6();
 		
 		
 	}
@@ -48,6 +49,11 @@ public class Runner {
 	public static void question5() {
 		BlackJack runBlackJack = new BlackJack();
 		runBlackJack.callMethod();
+	}
+	
+	public static void question6() {
+		UniqueSum runUniqueSum = new UniqueSum();
+		runUniqueSum.callMethod();
 	}
 	
 
