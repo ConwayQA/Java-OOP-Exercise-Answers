@@ -14,8 +14,8 @@ public class Runner {
 		//question4();
 		//question4ApendixA();
 		//question5();
-		question6();
-		
+		//question6();
+		question7();
 		
 	}
 	
@@ -56,5 +56,9 @@ public class Runner {
 		runUniqueSum.callMethod();
 	}
 	
+	public static void question7() {
+		Taxes runTaxes = new Taxes();
+		runTaxes.callMethod();
+	}
 
 }
