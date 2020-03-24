@@ -15,7 +15,8 @@ public class Runner {
 		//question4ApendixA();
 		//question5();
 		//question6();
-		question7();
+		//question7();
+		question8();
 		
 	}
 	
@@ -59,6 +60,11 @@ public class Runner {
 	public static void question7() {
 		Taxes runTaxes = new Taxes();
 		runTaxes.callMethod();
+	}
+	
+	public static void question8() {
+		Numbers runNumbers = new Numbers();
+		runNumbers.callMethod();
 	}
 
 }
