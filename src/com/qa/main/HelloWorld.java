@@ -2,6 +2,12 @@ package com.qa.main;
 
 public class HelloWorld {
 	
+	public void callMethod(String remoteGreeting) {
+		
+		System.out.println(remoteGreeting);
+		
+	}
+	
 	public void questionSet1() {
 		// Question 1
 		System.out.println("Hello World!");

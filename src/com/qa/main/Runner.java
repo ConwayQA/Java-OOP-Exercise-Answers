@@ -17,13 +17,17 @@ public class Runner {
 		//question6();
 		//question7();
 		question8();
+		//question9();
+		//question10();
 		
 	}
 	
 	//Call each method bellow from main class to run code for each question.
 	//Method named appropriately for each question set.
 	public static void question1() {
+		String greetings = "Hello World!";
 		HelloWorld q1 = new HelloWorld();
+		q1.callMethod(greetings);
 		q1.questionSet1();
 	}
 	
@@ -65,6 +69,16 @@ public class Runner {
 	public static void question8() {
 		Numbers runNumbers = new Numbers();
 		runNumbers.callMethod();
+	}
+	
+	public static void question9() {
+		Iteration runIteration = new Iteration();
+		runIteration.callMethod();
+	}
+	
+	public static void question10() {
+		Coins runCoins = new Coins();
+		runCoins.callMethod();
 	}
 
 }

@@ -6,7 +6,7 @@ public class Numbers {
 	
 	public void callMethod() {
 		
-		int digitNumber = 8319;
+		int digitNumber = 9000;
 		
 		sumDigits(digitNumber);
 		System.out.println("------------------------------------------------------------------------------------");
@@ -16,11 +16,11 @@ public class Numbers {
 		
 		System.out.println("------------------------------------------------------------------------------------");
 		
-		int countNumber = 1;
-		while (countNumber < 100) {
-			System.out.println(convertDigitToString(countNumber));
-			countNumber++;
-		}
+//		int countNumber = 1;
+//		while (countNumber < 100) {
+//			System.out.println(convertDigitToString(countNumber));
+//			countNumber++;
+//		}
 	}
 	
 	public void sumDigits(int number) {
