@@ -1,6 +1,6 @@
 package com.qa.main;
 
-public class Calculations {
+public class Results {
 	
 	public void callMethod() {
 		//Edit values below to match students scores to their corresponding subjects

@@ -6,7 +6,7 @@ public class Numbers {
 	
 	public void callMethod() {
 		
-		int digitNumber = 9000;
+		int digitNumber = 9111;
 		
 		sumDigits(digitNumber);
 		System.out.println("------------------------------------------------------------------------------------");

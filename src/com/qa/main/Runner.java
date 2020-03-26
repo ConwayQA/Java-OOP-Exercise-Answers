@@ -8,18 +8,18 @@ public class Runner {
 
 	public static void main(String[] args) {
 		// Run solutions for Beginner Hello World Questions
-		//question1();
-		//question2();
-		//question3();
-		//question4();
-		//question4ApendixA();
-		//question5();
-		//question6();
-		//question7();
-		question8();
-		//question9();
-		//question10();
-		
+		//question1(); //run Hello World excercises
+		//question2(); //run Maths exercise
+		//question3(); //run Results exercise
+		//question4(); //run Conditionals exercise
+		//question4ApendixA(); //run Conditionals Apendix A exercise
+		//question5(); //run BlackJackexercise
+		//question6(); //run Unique Sum exercise
+		//question7(); //run Taxes exercise
+		//question8(); //run Numbers exercise
+		//question9(); //run Iteration exercise
+		//question10(); //run Coins exercise
+		question12(); //run Arrays exercise
 	}
 	
 	//Call each method bellow from main class to run code for each question.
@@ -37,7 +37,7 @@ public class Runner {
 	}
 	
 	public static void question3() {
-		Calculations results = new Calculations();
+		Results results = new Results();
 		results.callMethod();
 	}
 	
@@ -79,6 +79,11 @@ public class Runner {
 	public static void question10() {
 		Coins runCoins = new Coins();
 		runCoins.callMethod();
+	}
+	
+	public static void question12() {
+		Arrays runArrays = new Arrays();
+		runArrays.callMethod();
 	}
 
 }
